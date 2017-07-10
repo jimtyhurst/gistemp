@@ -1,0 +1,23 @@
+Package: gistemp
+Type: Package
+Title: Visualization of GISTEMP data
+Version: 0.1.0
+Authors@R: person("Jim", "Tyhurst", email = "jim@tyhurst.com", role = c("aut", "cre"))
+Description: Visualization of surface temperature data obtained from the 
+    National Aeronautics and Space Administration's Goddard Institute for 
+    Space Studies (https://data.giss.nasa.gov/gistemp/)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.4.0)
+Imports:
+    devtools (>= 1.13.2),
+    tidyverse (>= 1.1.1)
+Suggests:
+    knitr,
+    rmarkdown,
+    roxygen2,
+    testthat
+RoxygenNote: 6.0.1
+VignetteBuilder: knitr
